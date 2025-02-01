@@ -1,0 +1,17 @@
+#navbarSupportedContent{
+    background-color: blueviolet;
+}
+#navbarSupportedContent ul li a:hover{
+    background-color: aqua;
+}
+.form-control me-2{
+    background-color: chartreuse;
+}
+#btn2:hover{
+    background-color:red;
+}
+
+.card img{
+    width:18rem;
+    height: 300px;
+}
