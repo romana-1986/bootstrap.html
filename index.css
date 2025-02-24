@@ -138,3 +138,140 @@ h2.fol{
     padding-top: 20px;
     color: white;
  }
+ @media(max-width:480){
+    
+    
+    
+    .header{
+        width: 50%;
+        height: 70px;
+        background-color: crimson;
+        position: relative;
+    
+    }
+    .header img{
+        position: absolute;
+        width:90px;
+        height: 90px;
+
+    
+    }
+    .header h1{
+        position: absolute;
+        top:40px;
+        left:20px;
+        color: black;
+        font-size: 20px;
+    
+    }
+    .header p{
+        position: absolute;
+        text-align: center;
+        top: 90px;
+        left: 50px;
+    }
+    .more{
+        text-align: center;
+        color: #010a11;
+    
+    }
+    .main-area{
+        width: 50%;
+        height: 300px;
+        background-color: red;
+        display: block;
+    }
+    .main-area1{
+        margin-left: 100px;
+        color: white;
+        margin-top: 30px;
+    
+    }
+    
+    
+    .see{
+        font-size: 50px;
+    }
+    .main-area2 img{
+    width: 500px;
+    height: 400px;
+    margin-top:25px;
+    }
+    .bold{
+        font-size: 50px;
+    }
+    .well{
+        width: 100%;
+        height: 500px;
+        background-image: url(image/lap.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    }
+    .ins{
+        padding-top: 280px;
+        padding-left: 100px;
+    }
+    .follow{
+        width: 100%;
+        height: 200px;
+        background-color: red;
+        text-align: center;
+    }
+    h2.fol{
+        color: white;
+        padding-top: 40px;
+        font-size: 40px;
+    }
+     .list{
+        display: flex;
+        margin-left: 650px;
+        gap: 30px;
+      
+        
+     }
+     .list li{
+        list-style: none;
+        padding-top: 20px;
+     }
+     .list li a{
+        color: white;
+       
+     }
+     .sale{
+        width:100% ;
+        height: 400px;
+        background-color:black ;
+        display:flex ;
+        gap: 120px;
+        
+     }
+     .sale1 img{
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+     }
+     .sale2 h1{
+        color: red;
+        margin-top: 80px;
+     }
+     .lom{
+        color: white;
+     }
+     .last{
+        height: 550px;
+        width: 100%;
+        background-color:red;
+        display: flex;
+        gap: 200px;
+     }
+     .footer{
+        width: 100%;
+        height: 70px;
+        background-color: black;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+     }
+     
+ }
